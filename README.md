@@ -4,13 +4,9 @@
     <title>ApnaSaath</title>
 
     <style>
-
-    /* Applies basic settings to all elements */
     * {
         box-sizing: border-box;
     }
-
-    /* Main webpage layout using Flexbox */
     body {
         margin: 0;
         font-family: Arial, sans-serif;
@@ -21,8 +17,6 @@
         flex-direction: column;
         min-height: 100vh;
     }
-
-    /* Styles the website header */
     header {
         background: linear-gradient(135deg, #456b52, #a5bd98);
         color: white;
@@ -39,8 +33,6 @@
         margin: 0;
         font-size: 38px;
     }
-
-    /* Navigation bar using Flexbox */
     nav {
         background: #243d2c;
 
@@ -49,53 +41,15 @@
         align-items: center;
         flex-wrap: wrap;
     }
-
-    /* Styles navigation links */
     nav a, .dropbtn {
         color: white;
         text-decoration: none;
         padding: 16px 22px;
         display: block;
     }
-
-    /* Hover effect for navigation */
     nav a:hover, .dropbtn:hover {
         background: #456b52;
     }
-
-    /* Dropdown container */
-    .dropdown {
-        position: relative;
-    }
-
-    /* Dropdown menu */
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        min-width: 220px;
-        background: white;
-        z-index: 10;
-        box-shadow: 0 5px 15px #243d2c20;
-    }
-
-    /* Dropdown links */
-    .dropdown-content a {
-        color: #354238;
-        padding: 12px;
-    }
-
-    .dropdown-content a:hover {
-        background: #e7efe5;
-    }
-
-    /* Displays dropdown on hover */
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-
-    /* Main content layout using Flexbox */
     main {
         display: flex;
         flex-direction: column;
@@ -103,8 +57,6 @@
         flex: 1;
         padding: 10px 0;
     }
-
-    /* Styles all content sections */
     section {
         background: white;
         width: 90%;
@@ -123,16 +75,12 @@
     section h2 {
         color: #294a34;
     }
-
-    /* Arranges feature cards using Flexbox */
     .cards {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 20px;
     }
-
-    /* Individual feature cards */
     .card {
         background: #edf3e9;
         padding: 22px;
@@ -142,13 +90,9 @@
         flex: 1 1 220px;
         border: 1px solid #dce7d8;
     }
-
-    /* Feature card headings */
     .card h3 {
         color: #456b52;
     }
-
-    /* Community information boxes */
     .community {
         background: #f1f5ed;
         padding: 18px;
@@ -164,8 +108,6 @@
         color: #294a34;
         margin-bottom: 0;
     }
-
-    /* Styles buttons */
     .btn {
         align-self: flex-start;
         background: #456b52;
@@ -178,8 +120,6 @@
     .btn:hover {
         background: #294a34;
     }
-
-    /* Footer using Flexbox */
     footer {
         background: #243d2c;
         color: white;
@@ -195,8 +135,6 @@
     footer p {
         margin: 0;
     }
-
-    /* Responsive layout for mobile screens */
     @media (max-width: 600px) {
 
         header h1 {
