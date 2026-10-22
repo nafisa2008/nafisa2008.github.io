@@ -7,7 +7,7 @@
         <button onclick="update()">click here</button>
         <script>
             function update() {
-                document.getElementById("np").interhtml="tulip";
+                document.getElementById("np").innerhtml="tulip";
             }        </script>
     </body>
     
