@@ -7,7 +7,7 @@
         <button onclick="updatename()">click here</button>
         <script>
             function updatename() {
-                document.getElementById("np").innerhtml="tulip";
+                document.getElementById("np").innerHTML="tulip";
             }        </script>
     </body>
     
