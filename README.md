@@ -4,9 +4,9 @@
     </head> 
     <body>
         <h1 id="np">nafisa patan</h1>
-        <button onclick="update()">click here</button>
+        <button onclick="updatename()">click here</button>
         <script>
-            function update() {
+            function updatename() {
                 document.getElementById("np").innerhtml="tulip";
             }        </script>
     </body>
